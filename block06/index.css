@@ -1,0 +1,22 @@
+body {background-color: rgb(200, 209, 200);}
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    color: antiquewhite;
+}
+
+h2 {
+    text-align: left;
+    border: 15px solid blue;
+    color: blue;
+}
+
+h3 {
+    text-align: center;
+    border: 20px solid greenyellow;
+    color: greenyellow;
+}
+
+section {
+    background-color: rgb(241, 233, 233);
+}
