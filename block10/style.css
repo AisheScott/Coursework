@@ -1,13 +1,51 @@
-article {
+.article {
+    width: 800px;
     display: grid;
-    grid-template:
-        "one one one" 200%
-        "two three four" 200%
-        "five six six" 200%;
+    border: 5px solid red;
+    grid-template-columns:
+        1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 
+        1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
-    align-items: auto;
 }
 
 body {
     background-color: sandybrown;
+}
+
+.white {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+  }
+
+  .black {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+  }
+
+  .checkerwhite {
+    margin: 10px 10px 10px 10px;
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .checkerblack {
+    margin: 10px 10px 10px 10px;
+    height: 75px;
+    width: 75px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+@media (max-width: 768px){
+    .article{
+        margin: 0 auto !important;
+        padding: 0 !important;
+    }
 }
