@@ -1,0 +1,9 @@
+article {
+    display: grid;
+    grid-template: 
+        "one one one" 200%
+        "two three four" 200%
+        "five six six" 200%;
+    gap: 2rem;
+    align-items: stretch;
+}
