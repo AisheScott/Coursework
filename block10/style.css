@@ -49,9 +49,28 @@ body {
     z-index: auto;
   }
 
-@media (max-width: 768px){
+  @media (max-width: 900px){
     .article{
         margin: 0 auto !important;
         padding: 0 !important;
+        border-color: darkgoldenrod;
     }
 }
+
+@media (max-width: 768px){
+  .article{
+      margin: 0 auto !important;
+      padding: 0 !important;
+  }
+}
+
+  @media (max-width: 400px){
+    .article{
+        margin: 0 auto !important;
+        padding: 0 !important;
+        border-color: rgb(68, 49, 2);
+        text-size-adjust: 1 rem;
+    }
+  }
+
+
