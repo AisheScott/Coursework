@@ -56,6 +56,7 @@ const Players = () => {
               }
             </p>
           </div>
+          <button>Details</button>
         </div>
       ))}
     </div>
